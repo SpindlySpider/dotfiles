@@ -190,55 +190,6 @@
             name: "Search",
             border_type: None,
             pane: Pane(Search),
-        ),
-        (
-            name: "Testing",
-            border_type: Single,
-            pane: Split(
-                direction: Horizontal,
-                panes: [
-                    (
-                        size: "40%",
-                        pane: Pane(Queue),
-                    ),
-                    (
-                        size: "60%",
-                        pane: Split(
-                            direction: Vertical,
-                            panes: [
-                                (
-                                    size: "50%",
-                                    pane: Pane(Directories),
-                                ),
-                                (
-                                    size: "50%",
-                                    pane: Split(
-                                        direction: Horizontal,
-                                        panes: [
-                                            (
-                                                size: "60%",
-                                                pane: Split(
-                                                    direction: Vertical,
-                                                    panes: [
-                                                        (
-                                                            size: "50%",
-                                                            pane: Pane(Albums),
-                                                        ),
-                                                        (
-                                                            size: "50%",
-                                                            pane: Pane(Artists),
-                                                        ),
-                                                    ],
-                                                ),
-                                            ),
-                                        ],
-                                    ),
-                                ),
-                            ],
-                        ),
-                    ),
-                ],
-            ),
-        ),
+        )
     ],
 )
