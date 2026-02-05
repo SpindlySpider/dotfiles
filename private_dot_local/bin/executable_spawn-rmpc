@@ -1,0 +1,2 @@
+#!/bin/bash
+wlrctl window focus rmpc-float || kitty --class rmpc-float rmpc
