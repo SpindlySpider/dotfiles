@@ -359,6 +359,15 @@ binds {
 
 }
 
+
+output "HKC OVERSEAS LIMITED 24E3 0000000000001"{
+    position x=1920 y=0
+}
+
+output "HP Inc. HP Z22n G2 6CM7471BM6"{
+    position x=0 y=0
+}
+
 environment {
     QS_ICON_THEME "Adwaita"
 }
