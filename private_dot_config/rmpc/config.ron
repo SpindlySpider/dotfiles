@@ -8,7 +8,7 @@
     max_fps: 60,
     wrap_navigation: true,
     theme: Some("def"),
-    cache_dir: Some("/tmp/rmpc/cache"),
+    cache_dir: Some("~/.cache/rmpc/"),
     lyrics_dir: "~/Music",
     on_song_change: ["~/.config/rmpc/scripts/notify"],
     status_update_interval_ms: 1000,
