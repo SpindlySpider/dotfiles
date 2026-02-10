@@ -112,6 +112,7 @@ animations {
 
     // Slow down all animations by this factor. Values below 1 speed them up instead.
     // slowdown 3.0
+    slowdown 0.2
 }
 
 window-rule {
@@ -367,6 +368,12 @@ output "HKC OVERSEAS LIMITED 24E3 0000000000001"{
 
 output "HP Inc. HP Z22n G2 6CM7471BM6"{
     position x=0 y=0
+}
+
+output "Najing CEC Panda FPD Technology CO. ltd 0x004D Unknown"{
+    mode "1920x1080@60.002"
+    // mode custom=true "1920x1080@50.002"
+    // mode "1920x1080@50.00"
 }
 
 
